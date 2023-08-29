@@ -38,7 +38,11 @@ function Landing() {
       <Route path='admin/' element={<AdminPage/>} />     {/* activated when /admin  */}
       
         </Routes>
-
+        <div className="bottom-0 absolute">
+                <a href="/admin" className="block py-1 px-2 rounded hover:bg-gray-700">(as if admin)</a>
+                <a href="/staff" className="block py-1 px-2 rounded hover:bg-gray-700">(as if staff)</a>
+             
+            </div>
       </div>
 
     
