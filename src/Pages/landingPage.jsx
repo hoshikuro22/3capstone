@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import AdminPage from './AdminPage';
 import Picture from '../assets/ched10.png';  
 
-function Landing() {
+function landingPage() {
   return (
     <div className='bg-gray-500 h-screen'>
       <div className='flex flex-col items-center justify-center p-9'>
@@ -47,4 +47,4 @@ function Landing() {
   );
 }
 
-export default Landing;
+export default landingPage;
