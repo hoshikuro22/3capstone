@@ -1,7 +1,7 @@
 
 import './App.css'
 import {Routes, Route} from 'react-router-dom'
-import LandingPage from './Pages/LandingPage'
+import LandingPage from './Pages/landingPage'
 import AdminPage from './Pages/AdminPage'
 import ErrorPage from './Pages/ErrorPage'
 import Footer from './Components/Footer'
