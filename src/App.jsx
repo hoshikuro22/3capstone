@@ -1,12 +1,13 @@
 
 import './App.css'
 import {Routes, Route} from 'react-router-dom'
-import LandingPage from './Pages/landingPage'
+import Landing from './Pages/landingPage'
 import AdminPage from './Pages/AdminPage'
 import ErrorPage from './Pages/ErrorPage'
 import Footer from './Components/Footer'
 import StaffPage from './Pages/StaffPage'
 import Header from './Components/Header'
+
 
 
 
@@ -20,7 +21,7 @@ function App() {
  
 <Header />
      <Routes>
-     <Route path='/' element={<LandingPage/>} />              {/* first page to see */}
+     <Route path='/' element={<Landing/>} />              {/* first page to see */}
      <Route path='/admin/*' element={<AdminPage/>} />     {/* activated when /admin  */}
      <Route path='/staff/*' element={<StaffPage/>} />     {/* activated when /staff  */}
      <Route path='/*' element ={<ErrorPage/>} />          {/* activate when /<random> */}
