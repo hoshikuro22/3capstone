@@ -1,5 +1,5 @@
 
-const ListOfPersonnel = () => {
+const listOfPersonnel = () => {
   
   const personnels = [ 'PERSONNEL 1' , 'PERSONNEL 2' , 'PERSONNEL 3' , 'PERSONNEL 4' , 'PERSONNEL 5'  
   ];
@@ -69,4 +69,4 @@ const ListOfPersonnel = () => {
 };
 
     
-  export default ListOfPersonnel
+  export default listOfPersonnel
